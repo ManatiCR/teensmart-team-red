@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.AboutComponent__cardCol {
+    padding: 15px;
+    
+}
+
+.AboutComponent__card_center, .AboutComponent__card {
+    text-align: left;
+    border-style: solid;
+    padding: 10px;
+    height: 100%;
+    border-radius: 8px !important;
+}
+
+.AboutComponent__card {
+    background-color: #B1C868 !important;
+    border-color: #B1C868 !important;
+}
+
+.AboutComponent__card_center {
+    background-color: #E0AC00 !important;
+    border-color: #E0AC00 !important;
+}
+
+.AboutComponent__card_center .card-header, .AboutComponent__card_center .card-footer {
+    border: 0;
+    background-color: transparent;
+}
+
+.AboutComponent__card .card-header, .AboutComponent__card .card-footer {
+    border: 0;
+    background-color: transparent;
+}
+
+.AboutComponent__card a {
+    font-weight: bold;
+}
+
+.about-title-header{
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.about-title-body{
+    font-family: Arial;
+}

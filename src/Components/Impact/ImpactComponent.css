@@ -1,0 +1,14 @@
+.ImpactComponent__impactTitle {
+    margin-bottom: 40px;
+}
+
+.ImpactComponent__wrapperSchools {
+    padding-top: 60px;
+}
+
+.ImpactComponent__mapImg {
+    margin-bottom: 25px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

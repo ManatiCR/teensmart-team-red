@@ -1,0 +1,335 @@
+/* These are all the media queries needed */
+
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media (min-width:320px) {
+    /* //CSS */
+    /* Title of the section  */
+    /* Header */
+    .Navbar{
+        display: none ;
+    }
+    .Navigator__icons{
+        display: none ;
+    }
+    .BannerText h4 {
+        margin-bottom: 15px;
+    }
+    .Section_TitleInvolved h2 {
+        text-align: center;
+    }
+  .Alliances_ImgText {
+      padding-top: 1em;
+      margin: 0 auto;
+  }
+  .Navbar__menu-flags{
+    margin: 0.75em 0em ;
+  }
+  .ImpactComponent__impactTitle {
+    margin-bottom: 40px;
+    text-align: center;
+    }
+    /* .FooterComponent__navItem-link{
+            padding: 0.25em 0em 0.25em;
+    } */
+    .FooterComponent__socialTitle {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        font-size: 1.2em;
+        padding: 0.5em 0em;
+    }
+    .Alliances_Text h2 {
+        text-align: center;
+    }
+    /*Award*/
+    #parentTitleAward{
+        justify-content: center;
+    }
+    .AwardComponent__cardTitle
+    {
+     margin:   1em 0.4em;
+    font-size: 4em;
+    text-align: center;
+    }
+    .card-awards-img {
+        padding: 1em 2em;
+        margin: 1em 0em;
+    }
+    .social-title h1 {
+        color: black !important;
+        margin: auto;
+        text-align: center;
+        font-family: "Arial", sans-serif;
+        font-size: 2rem;
+    }
+    .FooterComponent__firstLogo {
+        margin-right: 1em;
+    }
+    .FooterComponent__topWrapper{
+        position: relative;
+        right: 0.9em ;
+    }
+    .AwardComponent__cardTitle{
+        margin-top: 0em;
+        margin-bottom: 0.4em;
+        font-size: 2rem;
+    }
+    /* .Alliances_Container {
+        background-color: #E0AC00;
+        width: 105% !important ;
+    } */
+ }
+
+ /*  Specifix for iPhone 6, 7, 8 Portrait and Landscape */
+@media  (min-width: 375px){
+    /* //CSS */
+    /* Title of the section  */
+     /*Awards*/
+     .AwardComponent__cardTitle
+     {
+     margin: 1em 1em;
+     text-align: center; 
+     }
+     .card-awards-img {
+         padding: 2em 2em;
+         
+     }
+}
+
+/* smartphones, Android phones, landscape iPhone */
+@media (min-width:480px) {
+     /* //CSS */
+     /* Title of the section  */
+     .Navigator__img--teen{
+        padding: 0em;
+     }
+     .Navigator__img--joven{
+        padding: 0em;
+     }
+              /*Awards*/
+    .AwardComponent__cardTitle
+    {
+        margin: 1em 1em;
+
+    }
+    .card-awards-img {
+        padding: 3em 3em;
+    margin: 0em 1em;
+        
+    }
+}
+/* Custom Media by Bayron */
+@media (min-width:576px) {
+    /* //CSS */
+    /* Title of the section  */
+
+    /*Awards*/
+    .card-awards-img {
+    padding: 2.5em 2.5em;
+    }
+}
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media (min-width:600px) {
+     /* //CSS */
+     /* Title of the section  */
+     /*Awards*/
+     .AwardComponent__cardTitle {
+        margin: 1em 1em;
+        text-align: left;
+    }
+    .card-awards-img {
+        padding: 4em 4em;
+        margin: 2em 2em;
+      
+    }
+ }
+
+/*   ##Device = Tablets, Ipads (portrait) ##Screen = B/w 768px to 1024px */
+@media (min-width: 768px) {
+     /* //CSS */
+     /* Title of the section  */
+     /* Header Section */
+     .Navbar{
+        display: none ;
+    }
+    .Navigator__icons{
+        display: flex ;
+    }
+    .card-awards-img{
+        padding: 1em 1em;
+        margin: 2em 2em;
+   }
+    .Navigator__img--joven {
+        margin: 1em 0em 0em;
+    }
+  }
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:801px) {
+     /* //CSS */
+     /* Title of the section or component */
+    /* Header Section */
+     .Navbar__menu a {
+         font-size: 0.9em ;
+     }
+     .Mobile_Navbar{
+         display: none ;
+     }
+     .Navbar{
+        display: flex ;
+    }
+    .Navigator__idiomas{
+        display: flex ;
+    }
+    .Navigator__icons{
+        display: flex ;
+    }
+    .Navigator__img--teen{
+        padding: 0em;
+     }
+     .Navigator__img--joven{
+        padding: 0em;
+        }
+    .Alliances_ImgText {
+        padding-top: 1em;
+        margin: 0 auto;
+    }
+    .Navbar__menu-flags{
+        margin: 0.75em 0em ;
+        display: none ;
+    }
+    .card-awards-img{
+        padding: 1.5em 1.5em;
+        margin: 1em 11em;
+    }
+    .FooterComponent__topWrapper{
+        position: relative;
+        right: 0.9em ;
+    }
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:900px) {
+    /* //CSS */
+    /* Title of the section  */
+     /* Header Section */
+    .Navbar__menu a {
+        font-size: 1.1em;
+    }
+    .Section_TitleInvolved h2 {
+        text-align: left;
+    }
+  .Alliances_ImgText {
+      padding-top: 1em;
+      margin: 0 auto;
+  }
+  .ImpactComponent__impactTitle {
+    text-align: left;
+    }
+    .Alliances_Text h2 {
+        text-align: left;
+    }
+
+/*Awards*/
+.AwardComponent__cardTitle{
+    margin: 0.4em;
+    margin-bottom: 0.6em;
+    text-align: center;
+}
+
+.card-awards-img{
+         
+        padding: 1.5em 1.5em;  
+    margin: 1em 11em;
+    margin: 1.5em 1.5em;
+    }
+    .social-title h1 {
+        color: black !important;
+        margin: auto;
+        text-align: left;
+        font-family: "Arial", sans-serif;
+        font-size: 2rem;
+    }
+    .FooterComponent__firstLogo {
+        margin-right: 50px;
+    }
+}
+
+    /* big landscape tablets, laptops, and desktops */
+    @media (min-width:991px) {
+        /* //CSS */
+        /* Title of the section  */
+        .Navbar__menu a {
+            font-size: 1.3em;
+        }
+
+        .Banner_Text {
+            margin: 0;
+        }
+
+        .Alliances_RowImg {
+            margin-top: 0em;
+        }
+        .Navigator__img--joven {
+            margin: 0.5em 0em 0em;
+        }
+
+        .cards-news {
+            padding: 0 10%;
+        }
+
+        .card-video {
+            padding: 0 10%;
+        }
+    }
+
+ /* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) {
+     /* //CSS */
+    /* Title of the section  */
+
+    /*Awards*/
+    .container .d-flex.justify-content-sm-center.row{
+        justify-content: left !important;
+    }
+
+    #parentTitleAward{
+        justify-content: left !important;
+    }
+
+    .card-awards-img{
+        padding: 0em 0em;
+        margin: 1em 1em;
+    }
+
+    .AwardComponent__cardTitle{
+        margin-left: 0em;
+        margin-top: 0em;
+        margin-bottom: 0.4em;
+    }
+ }
+
+/* hi-res laptops and desktops */
+@media (max-width:1281px) {
+    /* //CSS */
+    /* Title of the section  */
+
+        /*Awards*/
+        .container .d-flex.justify-content-sm-center.row{
+            justify-content: left ;
+        }
+    
+        #parentTitleAward{
+            justify-content: left ;
+        }
+    
+        /* .card-awards-img{
+            padding: 0em 0em;
+            margin: 1em 1em;
+        } */
+    
+            /* .AwardComponent__cardTitle{
+                margin-left: 0em;
+                margin-top: 0em;
+                margin-bottom: 0.4em;
+            } */
+
+}

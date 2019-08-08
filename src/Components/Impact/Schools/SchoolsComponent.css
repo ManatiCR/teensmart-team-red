@@ -1,0 +1,28 @@
+.SchoolsComponent__schoolInvolved {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.SchoolsComponent__imgWrapper {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border: 1px solid #444444;
+    border-radius: 50%;
+}
+
+.SchoolsComponent__schoolImg {
+    height: 100%;
+    width: auto;
+}
+
+.SchoolsComponent__schoolText {
+    padding: 5px;
+}

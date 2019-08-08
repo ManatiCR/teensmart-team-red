@@ -1,0 +1,26 @@
+.seccion-awards{
+  background: white
+}
+
+.AwardsComponent__cardCol {
+  padding: 15px;
+}
+
+.AwardComponent__cardTitle
+{
+  float: left;
+  margin: 1em 1em 0em;
+
+  
+}
+.card-awards-img
+{
+margin-block-end: 60px;
+}
+.AwardImageContainer{
+  margin-bottom: 4em;
+
+}
+
+
+  

@@ -1,0 +1,109 @@
+header{
+    overflow-x: hidden ;
+}
+.header_container-fullHeader{
+    padding: 0.75em 0em 0.75em;
+}
+.Navigator__img--joven{
+    margin: 0.5em 0em 0em ;
+}
+.Navigator__icons{
+    display: flex ;
+    align-items: center ;
+}
+.Navigator__img-icons{
+    max-width: 2em;
+    border-width: 0.1em;
+}
+.Navigator__img-icons:hover{
+    max-width: 2em;
+    border-width: 0.1em;
+    background-color: #B1C868 ;
+    border-radius: 20% ;
+}
+.Navigator__idiomas{
+    position: relative;
+    top: 0.5em;
+}
+.Navigator__idiomas h5{
+    padding: 0em 0.1em ;
+}
+.Navigator__idiomas-ESP:hover{
+    text-decoration: underline;
+    color: #4CAF50 ;
+}
+.Navigator__idiomas-ENG:hover{
+    text-decoration: underline;
+    color:#E0AC00 ;
+}
+.Navbar__menu{
+    overflow: hidden;
+    background-color: #90C2D1;
+    display: flex ;
+    padding: 0.5em ;
+  }
+
+  .Navbar__menu a {
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif ;
+    word-wrap: break-word;
+    text-transform: uppercase ;
+  }
+  .Navbar__menu a:hover {
+    text-decoration: underline;
+    color: white ;
+  }
+
+  .Navbar__menu a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .Navbar__menu-btn--donate{
+    background-color: #B93049;
+    padding: 0.4em 1.75em;
+    margin: 0.5em 0.3em;
+    color: white;
+    border-radius: 8px;
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 600;
+  }
+  .Navbar__menu-btn--donate:hover{
+    background-color: #A2263D;
+    padding: 0.4em 1.75em;
+    margin: 0.5em 0.3em;
+    border-radius: 8px;
+  }
+  /* .myspan{
+      border-radius: 50% ;
+      border-style: solid ;
+  } */
+.dropdown{
+    margin: 3em 5em ;
+}
+.Mobile_Navbar{
+ background-color: #90C2D1 ;
+}
+.navbar-light .navbar-toggler {
+    color: black;
+    border-color: black;
+    border-width: 1px;
+}
+.navbar-brand {
+    margin-right: 0rem;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    text-align: center
+}
+.Navbar__menu-flags--ENG , .Navbar__menu-flags--ESP {
+    max-width: 4em ;
+}
+.Mobile_Navbar-items{
+    padding-left: 0.5em ;
+}
+.Navigator__icon-top .FooterComponent__socialLink img {
+    width: 1.5em ;
+}

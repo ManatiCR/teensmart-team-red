@@ -1,0 +1,92 @@
+footer {
+    background-color: #90C2D1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .container-fluid {
+    padding: 25px 15px;
+}
+
+.FooterComponent__topWrapper {
+    align-items: center;
+}
+
+.FooterComponent__footerCol {
+    padding: 10px 15px;
+}
+
+.FooterComponent__socialWrapper {
+    align-items: center;
+}
+
+.FooterComponent__socialTitle {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+.FooterComponent__navList {
+    margin: 16px 0px;
+    padding: 10px 0px;
+    list-style-type: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.FooterComponent__navItem {
+    padding: 3px 0px;
+}
+
+.FooterComponent__navList a {
+    color: black;
+}
+
+.FooterComponent__navList a:hover {
+    color: white;
+}
+
+.FooterComponent__logo {
+    min-width: 120px;
+    max-width: 20%;
+}
+
+.FooterComponent__firstLogo {
+    margin-right: 50px;
+}
+
+.FooterComponent__pageOwner {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.FooterComponent__socialLink {
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    transition: all .5s ease-in-out;
+}
+
+.FooterComponent__socialLink--face:hover {
+    padding: 12px;
+    background-color: #3C5A99;
+}
+
+.FooterComponent__socialLink--insta:hover {
+    padding: 12px;
+    background-color: #C13584;
+}
+
+.FooterComponent__socialLink--yt:hover {
+    padding: 12px;
+    background-color: #C4302B;
+}
+
+.FooterComponent__socialLink--twitter:hover {
+    padding: 12px;
+    background-color: #00ACEE;
+}
+
+.FooterComponent__socialLink img {
+    width: 20px;
+}

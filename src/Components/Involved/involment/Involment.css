@@ -1,0 +1,102 @@
+.Involment_Card-Icon{
+    padding: 2.55em 2em;
+}
+.Card-Volunteer_card-title {
+    margin-bottom: .75rem;
+    text-align: center ;
+    font-family: 'Quicksand', sans-serif ;
+}
+.Section_TitleInvolved h2{
+    margin: 1.75em 0em ;
+}
+.Card-Volunteer .card-text{
+    text-align: center ;
+}
+.Card-Volunteer div .card {
+    background-color: transparent;
+    border: 0em;
+    padding: 0em 0.75em;
+}
+
+.Card-Volunteer_img-wrapper {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.Card-Volunteer__card-btn--involved-red {
+    background-color: #B93049;
+    padding: 0.4em 3.75em;
+    margin: 0.5em 0.3em;
+    color: white;
+    border-radius: 8px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600 ;
+    text-transform: uppercase ;
+}
+.Card-Volunteer__card-btn--involved-blue {
+    background-color: #336384;
+    padding: 0.4em 2.75em;
+    margin: 0.5em 0.3em;
+    color: white;
+    border-radius: 8px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600 ;
+    text-transform: uppercase ;
+}
+.Card-Volunteer__card-btn--involved-Support{
+    background-color: #336384;
+    padding: 0.4em 3.5em;
+    margin: 0.5em 0.3em;
+    color: white;
+    border-radius: 8px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600 ;
+    text-transform: uppercase ;
+}
+.Card-Volunteer__card-btn--involved-school{
+    background-color: #B93049;
+    padding: 0.4em 3.25em;
+    margin: 0.5em 0.3em;
+    color: white;
+    border-radius: 8px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600 ;
+    text-transform: uppercase ;
+}
+.Card-Volunteer__card-btn--involved-red:hover {
+    background-color: #A2263D;
+    padding: 0.4em 3.75em;
+    margin: 0.5em 0.3em;
+    color: white;
+    border-radius: 8px;
+}
+.Card-Volunteer__card-btn--involved-blue:hover {
+    background-color: #27526f;
+    padding: 0.4em 2.75em;
+    margin: 0.5em 0.3em;
+    color: white;
+    border-radius: 8px;
+}
+.Card-Volunteer__card-btn--involved-school:hover{
+    background-color: #A2263D;
+    padding: 0.4em 3.25em;
+    margin: 0.5em 0.3em;
+    color: white;
+    border-radius: 8px;
+}
+.Card-Volunteer__card-btn--involved-Support:hover{
+    background-color: #27526f;
+    padding: 0.4em 3.5em;
+    margin: 0.5em 0.3em;
+    color: white;
+    border-radius: 8px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600 ;
+    text-transform: uppercase ;
+}
+.Section_TitleInvolved{
+    margin: 1.75em 0em ;
+}
+.Card-Volunteer_Text-P{
+    font-family: Arial, sans-serif ;
+}

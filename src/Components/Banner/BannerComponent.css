@@ -1,0 +1,35 @@
+.Banner_Container {
+    border: 1px solid #ccc;
+    border-top: 0;
+ }
+
+.Banner_Text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    color: #444;
+}
+
+.Banner_Text h2 {
+    margin-bottom: 1em; 
+    font-family: Quicksand, sans-serif;
+}
+
+.Banner_Text p {
+    font-family: Arial, sans-serif;
+}
+
+.Banner_Image {
+    width: 100% !important;
+    height: auto !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    
+}
+
+.Banner_Image img {
+    width: 100% !important;
+    height: auto !important;
+}
