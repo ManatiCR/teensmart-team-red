@@ -18,7 +18,7 @@ class NewsComponent extends React.Component {
     };
 
     componentDidMount() {
-        axios.get(`http://teensmartred.tk/api/v1/news`, {
+        axios.get(`http://dev-teensmart-team-red.pantheonsite.io/api/v1/news`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json"
@@ -37,7 +37,7 @@ class NewsComponent extends React.Component {
                 <Card className="NewsComponent__newsCard" key={index}>
                     <Row>
                         <Col className="NewsComponent__imgWrapper" xs="12" md="4" lg="5">
-                            <div className="NewsComponent__newsImg" style={{backgroundImage: `url(http://teensmartred.tk${item.image_url})`}}/>
+                            <div className="NewsComponent__newsImg" style={{backgroundImage: `url(http://dev-teensmart-team-red.pantheonsite.io${item.image_url})`}}/>
                         </Col>
 
                         <Col className="NewsComponent__textWrapper">

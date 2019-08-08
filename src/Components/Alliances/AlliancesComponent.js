@@ -15,7 +15,7 @@ class AlliancesComponent extends React.Component {
     };
 
     componentDidMount() {
-        axios.get(`http://teensmartred.tk/api/v1/alliances`, {
+        axios.get(`http://dev-teensmart-team-red.pantheonsite.io/api/v1/alliances`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json"
@@ -37,7 +37,7 @@ class AlliancesComponent extends React.Component {
                             <Col key={index} xs="12" sm="6" className="Alliances_Card">
                                 <div className="Alliances_CardWrapper">
                                     <div className="Alliances_ImgWrapper">
-                                        <img  src={`http://teensmartred.tk${item.image_url}` } alt={item.name} />
+                                        <img  src={`http://dev-teensmart-team-red.pantheonsite.io${item.image_url}` } alt={item.name} />
                                     </div>
                                     <div>{item.title}</div>
                                 </div>

@@ -37,7 +37,7 @@ class BannerComponent extends React.Component {
 
 
     componentDidMount() {
-        axios.get(`http://teensmartred.tk/api/v1/banner`, {
+        axios.get(`http://dev-teensmart-team-red.pantheonsite.io/api/v1/banner`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json"

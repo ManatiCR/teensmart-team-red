@@ -14,7 +14,7 @@ class AwardsComponent extends React.Component {
     };
 
     componentDidMount() {
-        axios.get(`http://teensmartred.tk:90/api/v1/awards`, {
+        axios.get(`http://dev-teensmart-team-red.pantheonsite.io:90/api/v1/awards`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json"
@@ -34,7 +34,7 @@ class AwardsComponent extends React.Component {
                 <h1> {item.title}</h1>
                 <p> {item.description} </p>
                 <p> {item.link} </p>
-                <img src={`http://teensmartred.tk:90${item.image_url}`} alt={item.name}></img>
+                <img src={`http://dev-teensmart-team-red.pantheonsite.io:90${item.image_url}`} alt={item.name}></img>
             </div>
 
 

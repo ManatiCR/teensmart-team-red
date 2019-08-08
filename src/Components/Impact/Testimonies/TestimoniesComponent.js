@@ -15,7 +15,7 @@ class TestimoniesComponents extends React.Component {
     };
 
     componentDidMount() {
-        axios.get(`http://teensmartred.tk/api/v1/testimonies`, {
+        axios.get(`http://dev-teensmart-team-red.pantheonsite.io/api/v1/testimonies`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json"

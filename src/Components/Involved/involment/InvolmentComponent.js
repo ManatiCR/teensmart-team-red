@@ -22,7 +22,7 @@ class InvolmentComponent extends React.Component {
     };
 
     componentDidMount() {
-        axios.get(`http://teensmartred.tk/api/v1/fellowship-info`, {
+        axios.get(`http://dev-teensmart-team-red.pantheonsite.io/api/v1/fellowship-info`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json"
@@ -43,7 +43,7 @@ class InvolmentComponent extends React.Component {
                         <Card.Body className="Card-Volunteer">
                             <Card.Title className="Card-Volunteer_card-title"><h3>{item.title}</h3></Card.Title>
                             <div className="Card-Volunteer_img-wrapper">
-                                <Card.Img className="Involment_Card-Icon" variant="top" src={`http://teensmartred.tk${item.image_url}`} alt={'volunteer'} />
+                                <Card.Img className="Involment_Card-Icon" variant="top" src={`http://dev-teensmart-team-red.pantheonsite.io${item.image_url}`} alt={'volunteer'} />
                             </div>
                             <Card.Text className="Card-Volunteer_Text-P" dangerouslySetInnerHTML={{__html: item.description}}/>
                             <div className="d-flex justify-content-center">

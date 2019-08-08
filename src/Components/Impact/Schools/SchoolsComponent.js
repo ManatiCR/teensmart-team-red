@@ -15,7 +15,7 @@ class SchoolsComponent extends React.Component {
     };
 
     componentDidMount() {
-        axios.get(`http://teensmartred.tk/api/v1/schools`, {
+        axios.get(`http://dev-teensmart-team-red.pantheonsite.io/api/v1/schools`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json"
@@ -34,7 +34,7 @@ class SchoolsComponent extends React.Component {
                 <Col>
                     <div key={index} className="SchoolsComponent__schoolInvolved">
                         <div className="SchoolsComponent__imgWrapper">
-                            <img className="SchoolsComponent__schoolImg" src={`http://teensmartred.tk${item.image_url}` } alt={item.name}></img>
+                            <img className="SchoolsComponent__schoolImg" src={`http://dev-teensmart-team-red.pantheonsite.io${item.image_url}` } alt={item.name}></img>
                         </div>
                         <div className="SchoolsComponent__schoolText"> {item.title} </div>
                     </div>
